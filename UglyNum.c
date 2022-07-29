@@ -1,3 +1,4 @@
+// [Medium]
 // With Binary Search
 long gcd(long pLhs, long pRhs) {    // greatest common divisor 
     return pLhs ? gcd(pRhs % pLhs, pLhs) : pRhs;
