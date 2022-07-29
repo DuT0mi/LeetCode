@@ -1,2 +1,2 @@
 # LeetCode
-That's where I store my solutions 
+Have you ever eaten microwaved eggs? They are just insane
