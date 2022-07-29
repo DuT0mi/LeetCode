@@ -1,5 +1,4 @@
-
-
+// [Medium]
 int reverse(int x){
     if( x > pow(2,31) - 1 || x < pow(-2,31) )
         return 0;
