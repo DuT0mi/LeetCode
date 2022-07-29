@@ -1,7 +1,4 @@
-/**
-*   2011. Final Value of Variable After Performing Operations
-* /   
-public class Leetcode {
+  public class Leetcode {
 
         public static int finalValueAfterOperations(String[] operations) {
                 int init = 0;
