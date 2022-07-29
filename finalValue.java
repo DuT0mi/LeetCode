@@ -1,4 +1,5 @@
-  public class Leetcode {
+// [Easy]  
+public class Leetcode {
 
         public static int finalValueAfterOperations(String[] operations) {
                 int init = 0;
