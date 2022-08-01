@@ -1,5 +1,5 @@
 // [Easy]
-    vector<int> addToArrayForm(vector<int>& num, int k) {
+    vector<int> addToArrayForm(const vector<int>& num, int k) {
         for(int i = num.size() - 1; i >= 0 && k > 0; i--) {
             num[i] += k;
             k = num[i] / 10;
