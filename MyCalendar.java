@@ -2,7 +2,6 @@
 // I made two solutions
 // the first one made with treemap
 // the second made with linkedlist
-import java.util.*;
 // 1.
 class MyCalendar {
     // variables
