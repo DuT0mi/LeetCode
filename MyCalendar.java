@@ -23,6 +23,8 @@ class MyCalendar {
     }
 }
 // 2.
+import java.util.*;
+
 class MyCalendar {
             // variables
              LinkedList<int[]> list;
@@ -32,14 +34,6 @@ class MyCalendar {
             }
             public boolean book(int start, int end) {
               int[] temp = {start,end};
-              // If the list is empty
-                if(list.size() == 0){
-                        // Add
-                         int[] pArray = {start,end};
-                         list.add(pArray);
-                        //success
-                        return true;
-                }
                 // else, not empty
                     for(int i = 0; i < list.size(); i++){
                      // save them
@@ -47,8 +41,7 @@ class MyCalendar {
                      // compare
                      if(
                              ((temp[0]>arrayList[0]) && (temp[0]<arrayList[1])) ||
-                             ((temp[0]<arrayList[0]) && (temp[1]>arrayList[0])) ||
-                             
+                             ((temp[0]<=arrayList[0]) && (temp[1]>arrayList[0])) 
                      ){
                            return  false;
                      }
@@ -56,5 +49,5 @@ class MyCalendar {
                    list.add(temp);
                     return  true;
             }
+            
     }
-// 2.
