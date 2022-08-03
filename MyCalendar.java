@@ -2,7 +2,7 @@
 // I made two solutions
 // the first one made with treemap
 // the second made with linkedlist
-// 1.
+// 1. fast but needs more memory
 class MyCalendar {
     // variables
     // key: start, value: end
@@ -22,7 +22,7 @@ class MyCalendar {
         return false;
     }
 }
-// 2.
+// 2. slower but needs less memory
 import java.util.*;
 
 class MyCalendar {
